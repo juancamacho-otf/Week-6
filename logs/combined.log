@@ -1,0 +1,59 @@
+2025-03-11T14:12:35.461Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T14:19:46.884Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T14:21:04.316Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T14:21:41.180Z [INFO]: Usuario guardado en la BD: Benedictus Rosmalen
+2025-03-11T14:22:20.927Z [WARN]: Intento de eliminar un usuario inexistente: 67d046f5b8910cc792c4a441
+2025-03-11T14:22:20.928Z [INFO]: Usuario eliminado: Benedictus Rosmalen
+2025-03-11T14:22:53.065Z [WARN]: Intento de eliminar un usuario inexistente: 67d046f5b8910cc792c4a441
+2025-03-11T14:23:31.050Z [INFO]: Usuario guardado en la BD: Elsa Lefevre
+2025-03-11T14:24:42.713Z [WARN]: Intento de eliminar un usuario inexistente: 67d04762b8910cc792c4a445
+2025-03-11T14:24:42.714Z [INFO]: Usuario eliminado: Elsa Lefevre
+2025-03-11T14:25:38.979Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T14:25:40.894Z [ERROR]: Error al eliminar usuario: Cannot read properties of undefined (reading 'warn')
+2025-03-11T14:26:29.171Z [INFO]: Usuario eliminado: Atiksh Mugeraya
+2025-03-11T14:26:35.535Z [ERROR]: Error al eliminar usuario: Cannot read properties of undefined (reading 'warn')
+2025-03-11T14:30:01.792Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T14:32:04.247Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T14:32:36.315Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T14:32:47.540Z [INFO]: Usuario:undefined llamado correctamente 
+2025-03-11T14:33:19.383Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T14:33:31.359Z [ERROR]: Error al obtener el usuario: Operation `holas.findOne()` buffering timed out after 10000ms
+2025-03-11T14:33:50.862Z [ERROR]: Error al obtener el usuario: Operation `holas.findOne()` buffering timed out after 10000ms
+2025-03-11T14:34:05.435Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T14:34:09.059Z [INFO]: Usuario:67d03839e2926c626de5588b llamado correctamente 
+2025-03-11T14:34:22.861Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T14:34:25.295Z [INFO]: Usuario:undefined llamado correctamente 
+2025-03-11T14:38:00.039Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T14:38:02.165Z [INFO]: Usuario:juan llamado correctamente 
+2025-03-11T14:50:00.609Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T14:51:09.468Z [INFO]: Usuarios creados correctamente undefined
+2025-03-11T14:55:10.238Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T14:56:47.934Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T14:56:54.897Z [INFO]: Usuarios extraidos correctamente20
+2025-03-11T14:57:29.707Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T14:57:40.494Z [INFO]: Los 20 Usuarios fueron extraidos correctamente
+2025-03-11T14:58:06.427Z [ERROR]: Error al obtener el usuario: Cast to ObjectId failed for value "u" (type string) at path "_id" for model "Hola"
+2025-03-11T14:58:43.705Z [INFO]: Usuario guardado en la BD: Elmer Brown
+2025-03-11T14:58:54.474Z [INFO]: Los 21 Usuarios fueron extraidos correctamente
+2025-03-11T15:00:27.888Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T15:00:40.751Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T15:01:17.118Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T15:02:32.903Z [INFO]: Usuario creado correctamente: {
+  name: 'juan',
+  genero: 'female',
+  ciudad: 'Bacata',
+  _id: new ObjectId('67d05086184a19bd15e427c2'),
+  __v: 0
+} 
+2025-03-11T15:03:05.762Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T15:03:08.697Z [INFO]: Usuario creado correctamente: juan 
+2025-03-11T15:05:57.068Z [INFO]: Servidor corriendo en http://localhost:3000
+2025-03-11T15:29:12.387Z [INFO]: Los 23 Usuarios fueron extraidos correctamente
+2025-03-11T16:03:10.651Z [INFO]: Usuario creado correctamente: juan 
+2025-03-11T16:03:14.754Z [INFO]: Usuario creado correctamente: juan 
+2025-03-11T16:03:15.484Z [INFO]: Usuario creado correctamente: juan 
+2025-03-11T16:04:13.615Z [INFO]: Usuario creado correctamente: juan 
+2025-03-11T16:04:14.607Z [INFO]: Usuario creado correctamente: juan 
+2025-03-11T16:04:41.758Z [INFO]: Los 28 Usuarios fueron extraidos correctamente
+2025-03-11T16:05:00.568Z [INFO]: Los 28 Usuarios fueron extraidos correctamente
+2025-03-11T16:11:32.282Z [INFO]: Servidor corriendo en http://localhost:3000

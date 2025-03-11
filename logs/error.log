@@ -1,0 +1,5 @@
+2025-03-11T14:25:40.894Z [ERROR]: Error al eliminar usuario: Cannot read properties of undefined (reading 'warn')
+2025-03-11T14:26:35.535Z [ERROR]: Error al eliminar usuario: Cannot read properties of undefined (reading 'warn')
+2025-03-11T14:33:31.359Z [ERROR]: Error al obtener el usuario: Operation `holas.findOne()` buffering timed out after 10000ms
+2025-03-11T14:33:50.862Z [ERROR]: Error al obtener el usuario: Operation `holas.findOne()` buffering timed out after 10000ms
+2025-03-11T14:58:06.427Z [ERROR]: Error al obtener el usuario: Cast to ObjectId failed for value "u" (type string) at path "_id" for model "Hola"
