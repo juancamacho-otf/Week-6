@@ -1,6 +1,7 @@
 #📌  Mi Proyecto Week 6
 
-Este es mi proyecto de API REST desarrollada con Node.js, Express y MongoDB. Implementa validaciones con express-validator, seguridad con helmet y cors, y logging con winston.
+Este es mi proyecto de API REST desarrollada con Node.js, Express y MongoDB. Implementa validaciones con express-validator, 
+seguridad con helmet y cors, y logging con winston.
 
 
 
@@ -19,7 +20,8 @@ cd src
 3️⃣ Instala las dependencias:
 
 🛠️ Configuración
-1️⃣ Este proyecto utiliza una base de datos en MongoDB Atlas. He compartido mis credenciales en el archivo de configuración para que puedas hacer peticiones sin necesidad de crear tu propia base de datos.
+1️⃣ Este proyecto utiliza una base de datos en MongoDB Atlas. He compartido mis credenciales en el archivo de configuración para que
+ puedas hacer peticiones sin necesidad de crear tu propia base de datos.
 
 2️⃣ Si quieres crea un archivo .env en la raíz del proyecto y agrega:
 
@@ -113,7 +115,14 @@ id (String) → ID del usuario a eliminar.
 
 📖 Tecnologías Usadas
 
-✅ Node.js - Runtime de JavaScript✅ Express - Framework minimalista para APIs✅ MongoDB - Base de datos NoSQL✅ Mongoose - ODM para MongoDB✅ Express-validator - Validación de datos en las solicitudes✅ Helmet - Seguridad para HTTP headers✅ Cors - Control de acceso entre dominios✅ Winston - Logger avanzado
+✅ Node.js - Runtime de JavaScript
+✅ Express - Framework minimalista para APIs
+✅ MongoDB - Base de datos NoSQL
+✅ Mongoose - ODM para MongoDB
+✅ Express-validator - Validación de datos en las solicitudes
+✅ Helmet - Seguridad para HTTP headers
+✅ Cors - Control de acceso entre dominios
+✅ Winston - Logger avanzado
 
 📌 Autor
 
