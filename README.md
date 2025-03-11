@@ -1,4 +1,4 @@
-#📌  Mi Proyecto Week 6
+# 📌  Mi Proyecto Week 6
 
 Este es mi proyecto de API REST desarrollada con Node.js, Express y MongoDB. Implementa validaciones con express-validator, 
 seguridad con helmet y cors, y logging con winston.
@@ -9,8 +9,7 @@ seguridad con helmet y cors, y logging con winston.
 
 ## 🚀 Instalación  
 
-
-1️⃣ Clona el repositorio:
+1️⃣Clona el repositorio:
 
    ```sh
    https://github.com/juancamacho-otf/Week-6.git
