@@ -24,11 +24,11 @@ cd src
  puedas hacer peticiones sin necesidad de crear tu propia base de datos.
 
 2️⃣ Si quieres crea un archivo .env en la raíz del proyecto y agrega:
-
+```sh
 DB_USERNAME=tu_usuario
 DB_PW=tu_contraseña
 NODE_ENV=development
-
+```
 3️⃣ Ejecuta el servidor en modo desarrollo:
 
 npm run dev
@@ -63,19 +63,19 @@ id (String) → ID del usuario en la base de datos.
 POST /api/user
 
 📌 Body (JSON):
-
+```sh
 {
   "name": "Juan Pérez",
   "genero": "male",
   "ciudad": "Bogotá"
 }
-
+```
 📥 Crear múltiples usuarios (Batch)
 
 POST /api/batch-users
 
 📌 Body (JSON):
-
+```sh
 [
   {
     "name": "Carlos Torres",
@@ -88,7 +88,7 @@ POST /api/batch-users
     "ciudad": "Cali"
   }
 ]
-
+```
 ✏️ Actualizar un usuario
 
 PUT /api/:id
@@ -98,13 +98,13 @@ PUT /api/:id
 id (String) → ID del usuario a actualizar.
 
 📌 Body (JSON):
-
+```sh
 {
   "name": "Luis Ramírez",
   "genero": "male",
   "ciudad": "Cartagena"
 }
-
+```
 🗑️ Eliminar un usuario
 
 DELETE /api/:id
@@ -115,14 +115,14 @@ id (String) → ID del usuario a eliminar.
 
 📖 Tecnologías Usadas
 
-✅ Node.js - Runtime de JavaScript
-✅ Express - Framework minimalista para APIs
-✅ MongoDB - Base de datos NoSQL
-✅ Mongoose - ODM para MongoDB
-✅ Express-validator - Validación de datos en las solicitudes
-✅ Helmet - Seguridad para HTTP headers
-✅ Cors - Control de acceso entre dominios
-✅ Winston - Logger avanzado
+-✅ Node.js - Runtime de JavaScript
+-✅ Express - Framework minimalista para APIs
+-✅ MongoDB - Base de datos NoSQL
+-✅ Mongoose - ODM para MongoDB
+-✅ Express-validator - Validación de datos en las solicitudes
+-✅ Helmet - Seguridad para HTTP headers
+-✅ Cors - Control de acceso entre dominios
+-✅ Winston - Logger avanzado
 
 📌 Autor
 
