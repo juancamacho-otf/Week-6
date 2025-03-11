@@ -39,29 +39,30 @@ Esto usará nodemon para reiniciar el servidor automáticamente cuando haya camb
 npm start
 📡 Endpoints Disponibles
 🔍 Obtener un usuario aleatorio y almacenarlo
-
+```sh
 GET /api/user
-
+```
 📌 Descripción: Obtiene un usuario aleatorio de la API externa y lo almacena en la base de datos.
 
 📂 Obtener todos los usuarios almacenados
-
+```sh
 GET /api/user-all
-
+```
 📌 Descripción: Devuelve todos los usuarios guardados en la base de datos.
 
 🔎 Obtener un usuario por ID
-
+```sh
 GET /api/:id
+```
 
 📌 Parámetro:
 
 id (String) → ID del usuario en la base de datos.
 
 📤 Crear un usuario individual
-
+```sh
 POST /api/user
-
+```
 📌 Body (JSON):
 ```sh
 {
@@ -71,9 +72,9 @@ POST /api/user
 }
 ```
 📥 Crear múltiples usuarios (Batch)
-
+```sh
 POST /api/batch-users
-
+```
 📌 Body (JSON):
 ```sh
 [
@@ -90,9 +91,9 @@ POST /api/batch-users
 ]
 ```
 ✏️ Actualizar un usuario
-
+```sh
 PUT /api/:id
-
+```
 📌 Parámetro:
 
 id (String) → ID del usuario a actualizar.
@@ -106,9 +107,9 @@ id (String) → ID del usuario a actualizar.
 }
 ```
 🗑️ Eliminar un usuario
-
+```sh
 DELETE /api/:id
-
+```
 📌 Parámetro:
 
 id (String) → ID del usuario a eliminar.
