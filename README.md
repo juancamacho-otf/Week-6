@@ -126,6 +126,8 @@ id (String) → ID del usuario a eliminar.
 
 📌 Autor
 
-👤 Juan Camacho📧 Contacto: juan.pelaez@onthefuze.com
+👤 Juan Camacho
+
+📧Contacto: juan.pelaez@onthefuze.com
 
 🚀 ¡Gracias por revisar mi proyecto!
